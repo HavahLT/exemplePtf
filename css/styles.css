@@ -1,0 +1,123 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.6rem;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Merriweather', serif;
+}
+
+#btnClose {
+    position: fixed;
+    top: 5%;
+    right: 5%;
+    z-index: 50;
+}
+
+#pr-header {
+    background: url("https://images.unsplash.com/photo-1473603477862-9d352d4615e1?dpr=1&auto=format&fit=crop&w=1500&h=1125&q=80&cs=tinysrgb&crop=")center;
+    background-position: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+#pr-header h3 {
+    font-family: 'Merriweather', serif;
+}
+
+.cercleIntro {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.5);
+    margin: 50vh auto 0 auto;
+    padding: 20px;
+}
+
+#pr-parcours {}
+
+.pr-parcours-p1 {
+    background: #F2F2F2;
+    padding: 40px 40px 40px 0;
+}
+
+.pr-parcours-p2 {
+    background: #E9E9E9;
+    padding: 40px 0 40px 40px;
+}
+
+.pr-parcours-p1 p {
+    padding-left: 150px;
+}
+
+.pr-parcours-p2 p {
+    padding-right: 150px;
+}
+
+#pr-competences {}
+
+.titreSkills {
+    position: absolute;
+    top: 0;
+    left: 305px;
+    color: #fff;
+    text-align: center;
+    z-index: 5;
+}
+
+.titreSkills h2 {
+    margin: 0;
+}
+
+.espaceSkills {
+    padding: 100px 0 0 0;
+}
+
+.pr-competences-p1 {
+    background: #0ED4C8;
+    padding:40px 0;
+}
+
+.pr-competences-p2 {
+    background: #0DCCC0;
+    padding:40px 0;
+}
+
+.rond-temp {
+    width: 150px;
+    height: 150px;
+    border: 23px solid #404148;
+    background: transparent;
+    border-radius: 50%;
+    color: #fff;
+    padding: 41px 25px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+}
+
+#pr-reco div div div i {
+    color: #0ED4C8;
+}
+
+.decalageIcon {
+    padding-left:12px;
+}
+
+.pr-recoBg {
+    background: url("http://codetic.net/demo/themes/privado/wp-content/themes/privado/img/bg-2.jpg") center rgba(0, 0, 0, 0.4);
+    height: 500px;
+    color: #fff;
+    padding: 100px;
+}
+
+.pr-recoIcons{
+  padding: 39px;
+}
+
+#pr-footer {
+    background: #EBEBEB;
+    padding: 25px 0 20px 0;
+}
